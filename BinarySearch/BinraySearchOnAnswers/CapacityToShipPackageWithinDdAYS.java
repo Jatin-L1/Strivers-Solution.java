@@ -1,4 +1,4 @@
-package BinarySearch.BinarySearchOn1D.BinraySearchOnAnswers;
+package BinarySearch.BinraySearchOnAnswers;
 
 public class CapacityToShipPackageWithinDdAYS {
     public int sum(int[] arr){

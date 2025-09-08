@@ -1,4 +1,4 @@
-package BinarySearch.BinarySearchOn1D.BinraySearchOnAnswers;
+package BinarySearch.BinraySearchOnAnswers;
 
 public class kokoeatingbanana {
     public int max(int[] arr){

@@ -1,4 +1,4 @@
-package BinarySearch.BinarySearchOn1D.BinraySearchOnAnswers;
+package BinarySearch.BinraySearchOnAnswers;
 
 public class MinimunNumberOfDaysToMakeMBouquets {
      public int  min(int[] arr){

@@ -24,6 +24,7 @@ Welcome to my comprehensive collection of solutions for **Striver's A2Z DSA (Dat
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
 | **Arrays** | 0 | 0 | 7 | 7 |
+| **Binary Search** | 13 | 8 | 0 | 21 |
 | **Strings** | 0 | 0 | 0 | 0 |
 | **Linked Lists** | 0 | 0 | 0 | 0 |
 | **Binary Trees** | 0 | 0 | 0 | 0 |
@@ -34,7 +35,7 @@ Welcome to my comprehensive collection of solutions for **Striver's A2Z DSA (Dat
 | **Heaps** | 0 | 0 | 0 | 0 |
 | **Stacks & Queues** | 0 | 0 | 0 | 0 |
 
-**Overall Progress**: 7/456 problems solved ✨
+**Overall Progress**: 28/456 problems solved ✨
 
 ## 📁 Repository Structure
 
@@ -51,6 +52,30 @@ Welcome to my comprehensive collection of solutions for **Striver's A2Z DSA (Dat
 │       ├── 🟢 NumberOfSubarrayWithXorK.java
 │       ├── 🟢 RepeatingAndMissing.java
 │       └── 🟢 reversepairs.java
+├── 📂 BinarySearch/
+│   ├── 📂 BinarySearchOn1D/
+│   │   ├── 🟢 BinarySearch.java
+│   │   ├── 🟢 CountOccurence.java
+│   │   ├── 🟢 FirstAndLastPosition.java
+│   │   ├── 🟢 FloorCeil.java
+│   │   ├── 🟢 InsertPosition.java
+│   │   ├── 🟢 LowerBound.java
+│   │   ├── 🟢 MinimumInRotatedSortedArray.java
+│   │   ├── 🟢 PeakElement.java
+│   │   ├── 🟢 SearchInRotatedSearchArray2.java
+│   │   ├── 🟢 SearchInRotatedSortedArray.java
+│   │   ├── 🟢 SingleElement.java
+│   │   ├── 🟢 TimesArrayIsRotated.java
+│   │   └── 🟢 UpperBound.java
+│   └── 📂 BinarySearchOnAnswers/
+│       ├── 🟢 AggressiveCows.java
+│       ├── 🟢 CapacityToShipPackageWithinDdAYS.java
+│       ├── 🟢 kokoeatingbanana.java
+│       ├── 🟢 kthMissingPositve.java
+│       ├── 🟢 MinimunNumberOfDaysToMakeMBouquets.java
+│       ├── 🟢 NthRoot.java
+│       ├── 🟢 SmallestDivisor.java
+│       └── 🟢 Sqrtx.java
 ├── 📂 Strings/
 ├── 📂 LinkedLists/
 ├── 📂 BinaryTrees/
@@ -72,6 +97,37 @@ Welcome to my comprehensive collection of solutions for **Striver's A2Z DSA (Dat
 | 5 | [Number of Subarrays with XOR K](./Arrays/hard/NumberOfSubarrayWithXorK.java) | 🔴 Hard | ✅ | Array, XOR, HashMap |
 | 6 | [Find Missing and Repeating Numbers](./Arrays/hard/RepeatingAndMissing.java) | 🔴 Hard | ✅ | Array, Mathematics |
 | 7 | [Reverse Pairs](./Arrays/hard/reversepairs.java) | 🔴 Hard | ✅ | Array, Merge Sort, Divide & Conquer |
+
+### Binary Search - 1D Array Problems
+
+| # | Problem | Difficulty | Solution | Topics |
+|---|---------|------------|----------|--------|
+| 1 | [Binary Search](./BinarySearch/BinarySearchOn1D/BinarySearch.java) | 🟢 Easy | ✅ | Binary Search, Array |
+| 2 | [Lower Bound](./BinarySearch/BinarySearchOn1D/LowerBound.java) | 🟢 Easy | ✅ | Binary Search, Array |
+| 3 | [Upper Bound](./BinarySearch/BinarySearchOn1D/UpperBound.java) | 🟢 Easy | ✅ | Binary Search, Array |
+| 4 | [Floor and Ceil](./BinarySearch/BinarySearchOn1D/FloorCeil.java) | 🟢 Easy | ✅ | Binary Search, Array |
+| 5 | [First and Last Position](./BinarySearch/BinarySearchOn1D/FirstAndLastPosition.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 6 | [Count Occurrences](./BinarySearch/BinarySearchOn1D/CountOccurence.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 7 | [Search Insert Position](./BinarySearch/BinarySearchOn1D/InsertPosition.java) | 🟢 Easy | ✅ | Binary Search, Array |
+| 8 | [Peak Element](./BinarySearch/BinarySearchOn1D/PeakElement.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 9 | [Single Element in Sorted Array](./BinarySearch/BinarySearchOn1D/SingleElement.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 10 | [Search in Rotated Sorted Array](./BinarySearch/BinarySearchOn1D/SearchInRotatedSortedArray.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 11 | [Search in Rotated Sorted Array II](./BinarySearch/BinarySearchOn1D/SearchInRotatedSearchArray2.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 12 | [Minimum in Rotated Sorted Array](./BinarySearch/BinarySearchOn1D/MinimumInRotatedSortedArray.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 13 | [Find How Many Times Array is Rotated](./BinarySearch/BinarySearchOn1D/TimesArrayIsRotated.java) | 🟡 Medium | ✅ | Binary Search, Array |
+
+### Binary Search on Answers
+
+| # | Problem | Difficulty | Solution | Topics |
+|---|---------|------------|----------|--------|
+| 1 | [Square Root](./BinarySearch/BinarySearchOnAnswers/Sqrtx.java) | 🟢 Easy | ✅ | Binary Search, Math |
+| 2 | [Nth Root](./BinarySearch/BinarySearchOnAnswers/NthRoot.java) | 🟢 Easy | ✅ | Binary Search, Math |
+| 3 | [Koko Eating Bananas](./BinarySearch/BinarySearchOnAnswers/kokoeatingbanana.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 4 | [Minimum Days to Make M Bouquets](./BinarySearch/BinarySearchOnAnswers/MinimunNumberOfDaysToMakeMBouquets.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 5 | [Smallest Divisor](./BinarySearch/BinarySearchOnAnswers/SmallestDivisor.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 6 | [Capacity to Ship Packages](./BinarySearch/BinarySearchOnAnswers/CapacityToShipPackageWithinDdAYS.java) | 🟡 Medium | ✅ | Binary Search, Array |
+| 7 | [Kth Missing Positive Number](./BinarySearch/BinarySearchOnAnswers/kthMissingPositve.java) | 🟢 Easy | ✅ | Binary Search, Array |
+| 8 | [Aggressive Cows](./BinarySearch/BinarySearchOnAnswers/AggressiveCows.java) | 🟡 Medium | ✅ | Binary Search, Array, Greedy |
 
 ## 🛠️ Technologies Used
 
@@ -102,6 +158,8 @@ Welcome to my comprehensive collection of solutions for **Striver's A2Z DSA (Dat
 
 ### Phase 1: Foundation (In Progress) 🔄
 - [x] Arrays (Hard) - 7/15 problems
+- [x] Binary Search (1D Arrays) - 13/13 problems ✅
+- [x] Binary Search on Answers - 8/10 problems
 - [ ] Arrays (Easy & Medium)
 - [ ] Strings
 - [ ] Basic Recursion

@@ -1,4 +1,4 @@
-package BinarySearch.BinarySearchOn1D.BinraySearchOnAnswers;
+package BinarySearch.BinraySearchOnAnswers;
 
 public class kthMissingPositve {
     public int findKthPositive(int[] arr, int k) {

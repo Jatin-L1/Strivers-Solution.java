@@ -1,3 +1,5 @@
+package BinarySearch.BinraySearchOnAnswers;
+import java.util.*;
 public class AggressiveCows {
     public boolean isPossible(int[] arr , int dist , int k){
         int countCows = 1 ; int last = arr[0];
