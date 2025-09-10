@@ -22,7 +22,7 @@ public class PainterProblem{
     public boolean isPossible(int[] arr, int k, int mid){
         int n = arr.length;
         int boards = 0;
-        int ans = 1; // start with 1 painter
+        int ans = 1; 
 
         for(int i = 0; i < n; i++){
             if(boards + arr[i] <= mid){
